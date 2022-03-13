@@ -1,0 +1,14 @@
+.wrapper{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(184, 227, 233, 0.651) ;
+}
+app-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

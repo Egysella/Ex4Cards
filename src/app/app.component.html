@@ -1,0 +1,35 @@
+<div class="wrapper">
+    <app-card
+        titulo="Basic"
+        cifrao="$"
+        subtitulo="19.99"
+        [conteudo1]="cardConteudo" 
+        conteudo2="2 Users Allowed"
+        conteudo3="Send up to 3 GB"
+        (buttonClickEvent)="pacoteEscolhido()"
+        bg="lightgray">
+    </app-card>
+    <app-card 
+        id="meio"
+        titulo="Professional" 
+        cifrao="$"
+        subtitulo="24.99"
+        conteudo1="1 TB Storage"
+        conteudo2="5 Users Allowed"
+        conteudo3="Send up to 10 GB"
+        (buttonClickEvent)="pacoteEscolhido()"
+        bg="rgb(114, 103, 182)"
+        color="white">
+    </app-card>
+    <app-card
+    titulo="Master"
+        cifrao="$"
+        subtitulo="39.99"
+        conteudo1="2 TB Storage"
+        conteudo2="10 Users Allowed"
+        conteudo3="Send up to 20 GB"
+        (buttonClickEvent)="pacoteEscolhido()"
+        bg="lightgray"> 
+    </app-card> 
+    <app-button (buttonClickEvent)="alertar2($event)"></app-button>
+</div>
